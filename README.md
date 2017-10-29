@@ -51,4 +51,3 @@ You can gather ideas for the responsive design based on [Medium's website](https
 - Begin to understand writing in JSX
 - Begin to understand passing data through props
 - Have a sandbox in which to practice working with React
-# sh-react-static-comp

@@ -29,3 +29,8 @@
   line-height: 150%;
   margin: 0;
 }
+
+.story-info img {
+  border-radius: 50%;
+  width: 35px;
+}
