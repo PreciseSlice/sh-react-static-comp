@@ -1,0 +1,11 @@
+.Footer {
+  border-top: 2px solid ghostwhite;
+  color: lightseagreen;
+  height: 90px;
+  margin-top: 50px;
+}
+
+.Footer p {
+  font-size: 16px;
+  margin-top: 18px;
+}
