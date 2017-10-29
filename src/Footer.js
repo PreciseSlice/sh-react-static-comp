@@ -3,6 +3,6 @@ import './Footer.css';
 
 const Footer = () => {
   // WHAT GOES HERE?
-}
+};
 
 export default Footer;
