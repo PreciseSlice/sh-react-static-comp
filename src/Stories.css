@@ -20,3 +20,20 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
+@media (max-width: 1100px) {
+  .stories-grid {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 750px) {
+  .Stories {
+    width: 85%;
+  }
+
+  .stories-header a {
+    text-align: center;
+    width: 30%;
+  }
+}
