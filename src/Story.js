@@ -1,19 +1,21 @@
 import React from 'react';
 import Button from './Button';
+import Author from './Author';
 import './Story.css';
 
 const Story = (props) => {
   return (
     <div className='Story'>
-      <img className ='story-img'src={props.img} />
+      <img src={props.img} className="story-image"/>
       <div className='story-info'>
         <div>
           <h3>{props.title}</h3>
           <p>{props.desc}</p>
         </div>
-          <img src={props.authImg} />
-          <p>{props.authName}</p>
-          <p>{props.estTime}</p>
+        <Author 
+          authImg={props.authImg} 
+          authName={props.authName} 
+          estTime={props.estTime} />
       </div>
     </div>
   )

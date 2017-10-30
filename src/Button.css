@@ -20,3 +20,11 @@
 .light {
   color: #2d2d2d;
 }
+
+@media (max-width: 800px) {
+  
+  .button {
+    width: 85px;
+    padding: 8px 10px;
+  }
+}
